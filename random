@@ -1,0 +1,36 @@
+<div class="tab-content bg-white box-shadow-1 ltn__border position-relative pb-10">
+                            <div class="tab-pane fade active show" id="ltn__form_tab_1_1">
+                                <div class="car-dealer-form-inner">
+                                    <form action="#" class="ltn__car-dealer-form-box row">
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-car---- col-lg-3 col-md-6" id="location">
+                                            <div class="autocomplete" >
+                                                <input class="myInput" type="text" placeholder="Enter Location..." id="location">
+                                            </div>
+                                        </div> 
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6" id="property-status">
+                                        <select id="property-status">
+                                            <option value="House">House</option>
+                                            <option value="Open Plot">Open Plot</option>
+                                            <option value="Sale">Sale</option>
+                                        </select>
+                                        </div>
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6"  id="property-type">
+                                        <select id="property-type">
+                                            <option value="Villas">Villas</option>
+                                            <option value="Individual House">Individual House</option>
+                                            <option value="Farm Plots">Farm Plots</option>
+                                        </select>
+                                        </div>
+                                        <div class="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-3 col-md-6">
+                                            <div class="btn-wrapper text-center mt-0">
+                                                <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase" class="search-button" onclick="performSearch()">Search</button>
+                                                
+                                                <!-- <a href="#" class="btn theme-btn-1 btn-effect-1 text-uppercase" class="search-button" onclick="performSearch()">Find Now</a> -->
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                        </div>
